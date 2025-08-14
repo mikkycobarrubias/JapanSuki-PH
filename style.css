@@ -1,0 +1,12 @@
+.header {
+  height: 108px;
+  background-color: #ff0062; /* Change to any color you like */
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 3em;
+  margin: 0;
+}
