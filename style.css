@@ -1,12 +1,28 @@
 .header {
-  height: 108px;
-  background-color: #ff0062; /* Change to any color you like */
+  height: 1px;
+  background-color: #ff3fb6; /* Change to any color you like */
   color: #fff;
   padding: 20px;
   text-align: center;
 }
 
-h1 {
-  font-size: 3em;
-  margin: 0;
+.Free-text {
+  font-size: 15px;
+  padding: 0%;
+  text-align: center;
+}
+
+.header-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.Name {
+  font-size: 20px;
+  color: black;
+  font-weight: bold;
+  background-color: #ffffff; /* Change to any color you like */
+  margin-top: 10px;
 }
