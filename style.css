@@ -201,12 +201,6 @@ p {
 .nav a:hover {
   background: var(--pink-1);
 }
-.nav-toggle {
-  display: none;
-  background: none;
-  border: 0;
-  font-size: 1.4rem;
-}
 
 /* =============== Hero =============== */
 .hero {
@@ -463,7 +457,7 @@ p {
     height: 190px;
   }
   .nav {
-    display: none;
+    display: block;
   }
   .nav.open {
     display: flex;
@@ -477,9 +471,6 @@ p {
     flex-direction: column;
     gap: 0.3rem;
     box-shadow: var(--shadow);
-  }
-  .nav-toggle {
-    display: block;
   }
 }
 @media (max-width: 420px) {
